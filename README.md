@@ -16,9 +16,9 @@ solution = optimizer.fit(dm, iterations=1000)
 problem.plot(np.array(solution))
 ```
 ### Before the Ant Colony optimization
-
+![TSP_beforeOptmization](output01.png)
 ### After the Ant Colony optimization
-
+![TSP_afterOptmization](output02.png)
 ## References:
 https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms
 https://www.researchgate.net/publication/3418512_Gambardella_LM_Ant_Colony_System_A_cooperative_learning_approach_to_the_Traveling_Salesman_Problem_IEEE_Tr_Evol_Comp_1_53-66
