@@ -10,7 +10,8 @@ solution_cost = problem.evaluate_solution(solution)
 problem.plot(solution)
 
 dm = problem.distance_matrix(solution)
-optimizer = AntColonyOptimizer(ants=100, evaporation_rate=.1, intensification=2, alpha=1, beta=1, choose_best=0.1)
+optimizer = AntColonyOptimizer(ants=100, evaporation_rate=.1, intensification=2, alpha=1, beta=1, 
+                               choose_best=0.1)
  
 solution = optimizer.fit(dm, iterations=1000)
 problem.plot(np.array(solution))
